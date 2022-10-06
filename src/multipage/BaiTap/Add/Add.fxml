@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="multipage.BaiTap.Add.Controller">
+   <children>
+      <Button layoutX="246.0" layoutY="33.0" mnemonicParsing="false" onAction="#goToList" prefHeight="25.0" prefWidth="109.0" text="&lt;&lt; Back to list" />
+      <Button layoutX="259.0" layoutY="314.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="82.0" text="Submit" />
+      <TextField layoutX="200.0" layoutY="74.0" prefHeight="49.0" prefWidth="201.0" promptText="Tên môn học" />
+      <TextField layoutX="200.0" layoutY="151.0" prefHeight="49.0" prefWidth="201.0" promptText="Giáo Viên" />
+      <TextField layoutX="200.0" layoutY="230.0" prefHeight="49.0" prefWidth="201.0" promptText="Số Giờ" />
+   </children>
+</Pane>

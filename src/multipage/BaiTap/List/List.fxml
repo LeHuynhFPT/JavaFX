@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="multipage.BaiTap.List.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView layoutX="87.0" layoutY="84.0" prefHeight="262.0" prefWidth="426.0" />
+      <Button onAction="#goToAdd" layoutX="178.0" layoutY="49.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="76.0" text="Thêm mới" />
+      <Button layoutX="319.0" layoutY="49.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="76.0" text="Sửa" />
+   </children>
+</Pane>
